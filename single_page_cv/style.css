@@ -1,0 +1,87 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 500px;
+    border-top: 1px solid black;
+}
+
+img {
+    border-radius: 50%;
+}
+
+h1,
+h3 {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+h3 {
+    font-size: 1rem;
+    color: green;
+}
+
+article {
+    margin: 0;
+    padding: 10px 500px;
+}
+
+article h1 {
+    font-size: 1.8rem;
+    color: green;
+}
+
+section {
+    margin: 0;
+    padding: 10px 500px;
+}
+
+section h1 {
+    font-size: 1.8rem;
+    color: green;
+}
+
+section p1 {
+    font-size: 1.3rem;
+    color: rgb(7, 117, 241);
+}
+
+#kisisel {
+    display: flex;
+    align-items: center;
+}
+
+#yetenekler {
+    padding: 10px 80px;
+}
+
+textarea {
+    resize: none;
+}
+
+footer {
+    background-color: #222;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-media a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-media a:hover {
+    color: #0077b5
+}
